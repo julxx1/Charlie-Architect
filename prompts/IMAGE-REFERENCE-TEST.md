@@ -1,8 +1,8 @@
-# Copy/paste into Claude Code AFTER attaching the product reference image
+# Charlie Architect — universal product image test
 
 Voy a proporcionarte una imagen de un producto. Construye una experiencia web completa, original y de calidad premium usando la imagen como base de dirección artística. No quiero una landing genérica ni una maqueta de botones falsos.
 
-Lee CLAUDE.md, docs/IMAGE-TO-EXPERIENCE.md, docs/DESIGN-SYSTEM.md, docs/MOTION-SYSTEM.md, docs/ENGINEERING.md y docs/QUALITY-GATES.md. Aplica /premium-design, /motion-system, /fullstack-build y /quality-audit cuando corresponda.
+Lee AGENTS.md, docs/IMAGE-TO-EXPERIENCE.md, docs/DESIGN-SYSTEM.md, docs/MOTION-SYSTEM.md, docs/ENGINEERING.md y docs/QUALITY-GATES.md. Aplica los estándares equivalentes de diseño, motion, desarrollo y auditoría según las capacidades de tu entorno. En Claude Code puedes usar los skills especializados si están disponibles.
 
 **Imagen adjunta o ruta:** [ADJUNTAR IMAGEN O RUTA]
 **Producto (opcional):** [NOMBRE]
