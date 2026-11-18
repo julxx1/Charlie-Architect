@@ -1,0 +1,5 @@
+---
+description: Charlie Architect creative engineering team standards for any web application
+alwaysApply: true
+---
+Read and follow the project's `AGENTS.md` as the canonical Charlie Architect system instructions. Use the shared `docs/` guidelines for image-led art direction, premium UX/UI, motion graphics, architecture and quality checks. Do not reproduce a separate, conflicting rule set here. If `AGENTS.md` is missing, state that explicitly.
