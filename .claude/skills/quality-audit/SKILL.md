@@ -3,6 +3,9 @@ name: quality-audit
 description: Inspect product against premium design, interaction, accessibility, security and production-readiness quality gates.
 ---
 
+## Mandatory independent visual gate
+Check `docs/VISUAL-FIDELITY-STANDARD.md` and `docs/SCREENSHOT-DESIGN-REVIEW.md` separately from automated code tests. An accessible, technically correct product drawing is still inadequate if it appears flat, tiny, low-contrast or boxed in by dense chrome. Require real viewport screenshots when tool access permits, or mark VISUAL QA NOT VERIFIED.
+
 # Quality Audit
 
 1. Read docs/QUALITY-GATES.md and inspect code and feature scope.
