@@ -4,7 +4,7 @@
 
 Study product proportions, material, silhouette and details **at the target display scale**. Choose a visible, editorially strong presentation rather than an intricate model squeezed into a utility panel. When recreating physical details in SVG/CSS, plan casing, bevels/edges, component spacing, material lighting, tactile shadow, and label sizes before motion.
 
-After implementation inspect screenshots using `SCREENSHOT-DESIGN-REVIEW.md` and check `VISUAL-FIDELITY-STANDARD.md` at actual viewport dimensions. Functional interactions do not excuse poor visual prominence. If a supplied preferred screenshot shows a different section, make only grounded, transferable comparisons rather than claiming full visual equivalence.
+After implementation inspect screenshots using `docs/quality/SCREENSHOT-DESIGN-REVIEW.md` and check `docs/design/VISUAL-FIDELITY-STANDARD.md` at actual viewport dimensions. Functional interactions do not excuse poor visual prominence. If a supplied preferred screenshot shows a different section, make only grounded, transferable comparisons rather than claiming full visual equivalence.
 
 ## Step 0 — Ground the concept in the actual reference image
 - Inspect attached image(s) or accessible workspace files, not just their filenames.
@@ -47,7 +47,7 @@ After implementation inspect screenshots using `SCREENSHOT-DESIGN-REVIEW.md` and
 - Run applicable build/tests and browser checks; report what was actually verified.
 
 ## Mandatory interaction hypothesis
-Identify one or more *product-dependent interactions* before settling the layout. Evaluate the ideas on product relevance, visitor value, implementability, honesty about unverified details, and accessibility. Choose one signature action and make the CTA lead to it. Read `PRODUCT-INTERACTION-STRATEGY.md`.
+Identify one or more *product-dependent interactions* before settling the layout. Evaluate the ideas on product relevance, visitor value, implementability, honesty about unverified details, and accessibility. Choose one signature action and make the CTA lead to it. Read `docs/strategy/PRODUCT-INTERACTION-STRATEGY.md`.
 
 Storyboards are a design tool, not an instruction to force animations. For each candidate beat document the leader, supporting elements, deliberate stillness, interruption behavior, and touch/keyboard/reduced-motion variants. Build the strongest feasible beats, not necessarily every candidate.
 
@@ -57,6 +57,6 @@ If depicting the object via SVG/CSS, add an explicit illustration/provenance not
 Check actual screenshots/viewport output when available. Compare type, image scale, visual composition, shadows, color and responsive behavior; distinguish real checks from source-only assumptions.
 
 ## Editorial vs utility gate (Charlie v3)
-Before selecting the signature interaction, read `EXPERIENCE-MODE-SELECTION.md`. A photo-led premium cinematic web brief is an **editorial experience**, not automatically a diagnostics/productivity tool. Validate the concept through `EDITORIAL-ART-DIRECTION.md`: the hero must make the product visually consequential, the copy must evoke a distinct idea, the page must have a coherent changing narrative, and the primary interaction must fit what the visitor came to experience. The screen should not be dominated by diagnostic panels unless the user asked for that.
+Before selecting the signature interaction, read `docs/strategy/EXPERIENCE-MODE-SELECTION.md`. A photo-led premium cinematic web brief is an **editorial experience**, not automatically a diagnostics/productivity tool. Validate the concept through `docs/design/EDITORIAL-ART-DIRECTION.md`: the hero must make the product visually consequential, the copy must evoke a distinct idea, the page must have a coherent changing narrative, and the primary interaction must fit what the visitor came to experience. The screen should not be dominated by diagnostic panels unless the user asked for that.
 
 The storyboard should include at least one distinctive product-led visual moment beyond whole-object entry and generic headline fade **when technically justified**. Remove unnecessary effects; do not force a fixed number of animations. If concept drifted toward utility, return to art direction before implementing additional features.

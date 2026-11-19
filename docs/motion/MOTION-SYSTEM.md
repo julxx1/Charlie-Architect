@@ -43,4 +43,4 @@ The first decision is **whether anything should move**. A high-frequency keyboar
 - Avoid `transition: all`, heavy layout effects per scroll frame, and unnecessary global animation loops.
 - Treat `clip-path`, blur and complex shadows as potential paint costs; benchmark rather than assume GPU acceleration.
 - Provide comprehensible static/discrete reduced-motion variants; critical content cannot remain hidden.
-- Use `MOTION-CRAFT-CHECKLIST.md` to specify the effect's purpose, timing, leader, support, interruption, fallbacks and actual test evidence.
+- Use `docs/motion/MOTION-CRAFT-CHECKLIST.md` to specify the effect's purpose, timing, leader, support, interruption, fallbacks and actual test evidence.

@@ -10,7 +10,7 @@ The user-preferred product presentation in a screenshot comparison featured a la
 
 For editorial showcases, allocate a generous visual stage to the object. Deliberately design physical layers (case, caps, edges), material-specific highlights, key shadows and contact shadow. Check actual display scale. A detailed miniature is not automatically premium; a technically accurate model can fail as visual design.
 
-Apply `VISUAL-FIDELITY-STANDARD.md` and `SCREENSHOT-DESIGN-REVIEW.md`. A code review without comparable screenshots cannot verify the perceived result.
+Apply `docs/design/VISUAL-FIDELITY-STANDARD.md` and `docs/quality/SCREENSHOT-DESIGN-REVIEW.md`. A code review without comparable screenshots cannot verify the perceived result.
 
 ## First-screen art direction
 
