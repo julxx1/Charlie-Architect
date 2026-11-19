@@ -18,3 +18,12 @@ Set measurable per-project performance budgets and benchmark on representative d
 
 ## Operations
 Run typechecking, lint, and relevant unit/integration/E2E tests. Include safe env examples, setup, deployment and monitoring guidance. Avoid premature abstraction or complexity.
+
+## Interactive simulations and native input
+For CSS/SVG/Canvas product representations, model geometry and parts in coherent data structures rather than scattered DOM constants. Add tests for unique identifiers, bounds, accidental overlap, input mappings, scoring and state changes when relevant.
+
+Listen to keyboard and mouse input only when the user expects it, not as covert global collection. Avoid logging sensitive text or accidentally hijacking browser shortcuts. Handle blur, cleanup and disabled states. Clearly explain what localStorage stores and what never leaves the device.
+
+Build tools, UI frameworks and animation packages must be selected by real complexity and performance needs. The high-quality example with native CSS and rAF is evidence that a web project doesn't automatically need React, GSAP or WebGL.
+
+A passing TypeScript build is not a substitute for testing the real browser, accessibility, physical touch and motion performance.
