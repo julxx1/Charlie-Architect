@@ -2,14 +2,14 @@
 
 Voy a proporcionarte una imagen de un producto. Construye una experiencia web completa, original y de calidad premium usando la imagen como base de dirección artística. No quiero una landing genérica ni una maqueta de botones falsos.
 
-Lee AGENTS.md, docs/IMAGE-TO-EXPERIENCE.md, docs/DESIGN-SYSTEM.md, docs/MOTION-SYSTEM.md, docs/ENGINEERING.md y docs/QUALITY-GATES.md. Aplica los estándares equivalentes de diseño, motion, desarrollo y auditoría según las capacidades de tu entorno. En Claude Code puedes usar los skills especializados si están disponibles.
+Lee AGENTS.md, docs/design/IMAGE-TO-EXPERIENCE.md, docs/design/DESIGN-SYSTEM.md, docs/motion/MOTION-SYSTEM.md, docs/engineering/ENGINEERING.md y docs/quality/QUALITY-GATES.md. Aplica los estándares equivalentes de diseño, motion, desarrollo y auditoría según las capacidades de tu entorno. En Claude Code puedes usar los skills especializados si están disponibles.
 
 **Imagen adjunta o ruta:** [ADJUNTAR IMAGEN O RUTA]
 **Producto (opcional):** [NOMBRE]
 **Acción principal:** [EXPLORAR / COTIZAR / RESERVAR / COMPRAR MEDIANTE INTEGRACIÓN REAL / OTRA]
 
 ## Charlie v4 — visual benchmark required
-Before coding, read `docs/VISUAL-FIDELITY-STANDARD.md` and `docs/SCREENSHOT-DESIGN-REVIEW.md`. Treat the *actual rendered appearance* of the product as a release criterion. Make the object large enough to be admired, with visibly dimensional construction, material-specific directional highlights, depth and contact shadows where justified. Technical accuracy is insufficient if details become tiny, flat or unreadable.
+Before coding, read `docs/design/VISUAL-FIDELITY-STANDARD.md` and `docs/quality/SCREENSHOT-DESIGN-REVIEW.md`. Treat the *actual rendered appearance* of the product as a release criterion. Make the object large enough to be admired, with visibly dimensional construction, material-specific directional highlights, depth and contact shadows where justified. Technical accuracy is insufficient if details become tiny, flat or unreadable.
 
 Build an editorial product canvas when the brief asks for a cinematic showcase; do not shrink the object into a generic diagnostics panel. Contrast, typography, crop, spacing and composition must support the product.
 
@@ -30,14 +30,14 @@ After coding, compare screenshots at desktop and mobile, inspect material depth 
 **Entrega:** sitio operativo, breve racional artístico, animaciones realmente implementadas, comandos de ejecución, checks reales y limitaciones conocidas. Procede con supuestos sensatos cuando falten datos no esenciales.
 
 ## Charlie v2 — specialist craft review
-Read `docs/PRODUCT-INTERACTION-STRATEGY.md`, `docs/DESIGN-ENGINEERING-CRAFT.md`, and `docs/MOTION-CRAFT-CHECKLIST.md` before choosing the visual concept.
+Read `docs/strategy/PRODUCT-INTERACTION-STRATEGY.md`, `docs/design/DESIGN-ENGINEERING-CRAFT.md`, and `docs/motion/MOTION-CRAFT-CHECKLIST.md` before choosing the visual concept.
 
 Design one **product-specific signature interaction** rather than copying another project's demo. Build an excellent functioning primary action with a clear link from the hero. Coordinate expressive narrative motion with immediate, physically convincing feedback on everyday controls. Explain what each animation accomplishes and what should stay still.
 
 For illustrated products, label illustrative details and implement accessible keyboard and touch equivalents. Add model/geometry/input tests where there is custom behavior. After implementation, audit source code and any live viewport available, distinguishing what was actually verified from anything not tested.
 
 ## Charlie v3 — preserve editorial intent
-For a product photo + premium high-motion web brief, select **editorial product experience** by default, unless the user explicitly asks for commerce, testing or a repeatable utility. Read `docs/EXPERIENCE-MODE-SELECTION.md` and `docs/EDITORIAL-ART-DIRECTION.md` before design.
+For a product photo + premium high-motion web brief, select **editorial product experience** by default, unless the user explicitly asks for commerce, testing or a repeatable utility. Read `docs/strategy/EXPERIENCE-MODE-SELECTION.md` and `docs/design/EDITORIAL-ART-DIRECTION.md` before design.
 
 Make the actual product the visual protagonist. Use purposeful chapter-to-chapter contrast, memorable typography and lighting, a product-relevant signature interaction, and distinct storytelling moments. Do not replace an experiential landing page with hardware diagnostics or a dashboard merely because those features are easy to test.
 

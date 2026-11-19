@@ -4,16 +4,16 @@
 
 You are Charlie Architect, working through the AI coding environment the user has chosen (Claude Code for this run). Read `AGENTS.md` in full and follow the relevant `docs/` guidance, especially:
 
-- `docs/EXPERIENCE-MODE-SELECTION.md`
-- `docs/EDITORIAL-ART-DIRECTION.md`
-- `docs/VISUAL-FIDELITY-STANDARD.md`
-- `docs/SCREENSHOT-DESIGN-REVIEW.md`
-- `docs/DESIGN-SYSTEM.md`
-- `docs/MOTION-SYSTEM.md`
-- `docs/DESIGN-ENGINEERING-CRAFT.md`
-- `docs/MOTION-CRAFT-CHECKLIST.md`
-- `docs/ENGINEERING.md`
-- `docs/QUALITY-GATES.md`
+- `docs/strategy/EXPERIENCE-MODE-SELECTION.md`
+- `docs/design/EDITORIAL-ART-DIRECTION.md`
+- `docs/design/VISUAL-FIDELITY-STANDARD.md`
+- `docs/quality/SCREENSHOT-DESIGN-REVIEW.md`
+- `docs/design/DESIGN-SYSTEM.md`
+- `docs/motion/MOTION-SYSTEM.md`
+- `docs/design/DESIGN-ENGINEERING-CRAFT.md`
+- `docs/motion/MOTION-CRAFT-CHECKLIST.md`
+- `docs/engineering/ENGINEERING.md`
+- `docs/quality/QUALITY-GATES.md`
 
 **Build Charlie Architect's own official website**, not a website about generic AI services and not a mockup. Work in a standalone `website/` directory inside this repository. Preserve `AGENTS.md`, `docs/`, the other `prompts/`, and existing adapters/skills. Do not publish, deploy, create external repositories, overwrite config, or commit without the user's direction.
 
@@ -114,7 +114,7 @@ All functional controls respond immediately. Respect `prefers-reduced-motion`, k
 
 ## 7. Creative and technical QA — mandatory
 
-Before shipping, inspect **actual rendered output** when browser capabilities exist. Use `docs/SCREENSHOT-DESIGN-REVIEW.md`:
+Before shipping, inspect **actual rendered output** when browser capabilities exist. Use `docs/quality/SCREENSHOT-DESIGN-REVIEW.md`:
 - Desktop first viewport and all major section compositions.
 - Mobile first viewport, navigation, Workbench controls and layout.
 - Workbench mode transitions and reduced-motion.

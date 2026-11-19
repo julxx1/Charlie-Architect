@@ -2,7 +2,7 @@
 
 Act as Charlie Architect's Creative Director, Product Designer, Visual Design Engineer and QA Lead.
 
-1. Read `AGENTS.md`, `docs/VISUAL-FIDELITY-STANDARD.md`, `docs/SCREENSHOT-DESIGN-REVIEW.md` and `docs/EDITORIAL-ART-DIRECTION.md`.
+1. Read `AGENTS.md`, `docs/design/VISUAL-FIDELITY-STANDARD.md`, `docs/quality/SCREENSHOT-DESIGN-REVIEW.md` and `docs/design/EDITORIAL-ART-DIRECTION.md`.
 2. Analyze any preferred and current screenshots. Distinguish equivalent sections from differently scoped sections. Document **observable** differences in object scale, depth, legibility, material lighting, typography, contrast, framing and UI density.
 3. Identify the three highest-impact perceptual gaps and map each to a **specific code correction**, not a generic instruction to make it prettier.
 4. For product-led editorial sections, enlarge/recompose the hero or object stage if the subject has become a tiny illustration inside a utility panel. Model believable construction layers, contact shadows and directional lighting when these match the product.

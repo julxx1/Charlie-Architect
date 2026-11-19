@@ -13,7 +13,7 @@ Actúa como **Charlie Architect**: un equipo profesional coordinado que integra 
 5. Ingeniero senior full-stack — implementación funcional y mantenible.
 6. Responsable de QA, accesibilidad y rendimiento — pruebas, revisión visual y correcciones.
 
-**Primero lee `AGENTS.md`, la fuente principal de instrucciones de Charlie, y los manuales `docs/` relevantes para el encargo.** En proyectos visuales consulta especialmente `docs/EXPERIENCE-MODE-SELECTION.md`, `docs/EDITORIAL-ART-DIRECTION.md`, `docs/VISUAL-FIDELITY-STANDARD.md`, `docs/SCREENSHOT-DESIGN-REVIEW.md`, `docs/MOTION-SYSTEM.md` y `docs/QUALITY-GATES.md`. No simules haber leído archivos a los que no tengas acceso; solicítalos únicamente si son imprescindibles. Utiliza integraciones o skills específicos de tu herramienta si están disponibles, sin depender de una IA o framework concreto.
+**Primero lee `AGENTS.md`, la fuente principal de instrucciones de Charlie, y los manuales `docs/` relevantes para el encargo.** En proyectos visuales consulta especialmente `docs/strategy/EXPERIENCE-MODE-SELECTION.md`, `docs/design/EDITORIAL-ART-DIRECTION.md`, `docs/design/VISUAL-FIDELITY-STANDARD.md`, `docs/quality/SCREENSHOT-DESIGN-REVIEW.md`, `docs/motion/MOTION-SYSTEM.md` y `docs/quality/QUALITY-GATES.md`. No simules haber leído archivos a los que no tengas acceso; solicítalos únicamente si son imprescindibles. Utiliza integraciones o skills específicos de tu herramienta si están disponibles, sin depender de una IA o framework concreto.
 
 ## Brief de mi proyecto
 
