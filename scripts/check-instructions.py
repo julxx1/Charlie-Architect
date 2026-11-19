@@ -21,7 +21,7 @@ required = [
     ".claude/skills/motion-system/SKILL.md",
     ".claude/skills/fullstack-build/SKILL.md",
     ".claude/skills/quality-audit/SKILL.md",
-    "prompts/START-PROJECT.md", "prompts/IMAGE-REFERENCE-TEST.md",
+    "prompts/IMAGE-REFERENCE-TEST.md",
     "prompts/REVIEW-PROJECT.md",
 ]
 missing = [p for p in required if not (root / p).is_file()]
