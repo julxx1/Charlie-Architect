@@ -13,7 +13,7 @@
 - [ ] Source-code checks are NOT counted as proof that the page looks premium
 - [ ] Screenshot review was repeated after implementation when available; otherwise mark **VISUAL QA NOT VERIFIED**
 
-Read `docs/VISUAL-FIDELITY-STANDARD.md` and `docs/SCREENSHOT-DESIGN-REVIEW.md`.
+Read `docs/design/VISUAL-FIDELITY-STANDARD.md` and `docs/quality/SCREENSHOT-DESIGN-REVIEW.md`.
 
 ## Design
 - [ ] Distinctive, coherent and product-specific art direction
@@ -60,7 +60,7 @@ Report PASS / FAIL / NOT TESTED with evidence, not fabricated scores or screensh
 - [ ] Report distinguishes code inspection, build/test output, visual browser review and real-device performance
 - [ ] Any unsupported measurements are labeled NOT TESTED, never converted to fabricated numeric scores
 
-Consult `DESIGN-ENGINEERING-CRAFT.md` and `MOTION-CRAFT-CHECKLIST.md` before approving a release.
+Consult `docs/design/DESIGN-ENGINEERING-CRAFT.md` and `docs/motion/MOTION-CRAFT-CHECKLIST.md` before approving a release.
 
 ## Charlie v3 — intended experience and creative acceptance
 - [ ] Experience type is explicitly identified from the user's actual goal before work (editorial / commerce / demo / utility / portfolio)
@@ -73,4 +73,4 @@ Consult `DESIGN-ENGINEERING-CRAFT.md` and `MOTION-CRAFT-CHECKLIST.md` before app
 - [ ] Aesthetic/editorial quality is reviewed separately from code completeness and automated tests
 - [ ] User-declared preferred reference is used as an explicit taste-calibration benchmark without copying product-specific layouts
 - [ ] Desktop, mobile and key interactive states are visually inspected when runtime tools exist; otherwise mark NOT TESTED
-Read `docs/EXPERIENCE-MODE-SELECTION.md` and `docs/EDITORIAL-ART-DIRECTION.md` before creative signoff.
+Read `docs/strategy/EXPERIENCE-MODE-SELECTION.md` and `docs/design/EDITORIAL-ART-DIRECTION.md` before creative signoff.
