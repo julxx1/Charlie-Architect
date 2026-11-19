@@ -17,3 +17,7 @@ When a product image is provided, read docs/IMAGE-TO-EXPERIENCE.md, inspect it d
 
 8. Read `docs/PRODUCT-INTERACTION-STRATEGY.md`; identify and implement one fitting signature interaction before defaulting to generic sections.
 9. Review tactile feedback, focus, spatial origin and narrative restraint with `docs/DESIGN-ENGINEERING-CRAFT.md`. Propose genuine concept alternatives only if product direction is ambiguous.
+
+10. Read `docs/EXPERIENCE-MODE-SELECTION.md` and classify the intended website before UI design. Product photo + premium visual request normally means an editorial showcase, not diagnostic utility.
+11. Apply `docs/EDITORIAL-ART-DIRECTION.md`; protect product prominence, page-wide contrast, unique storytelling, emotional impact and real exploratory interaction.
+12. Run a Creative Director veto before implementation and a visual audit afterwards. Browser screenshots when available; no unmeasured claims.
