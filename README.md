@@ -27,6 +27,14 @@ Charlie now requires **visual fidelity inspection**, not just architecture and m
 
 **Important:** Source correctness and visual quality are separate release gates. Browser checks are required when accessible; otherwise report the visual check as NOT VERIFIED.
 
+## Build Charlie Architect's own website
+
+A dedicated, reusable build brief for the official public-facing website is available at [`prompts/BUILD-CHARLIE-WEBSITE.md`](prompts/BUILD-CHARLIE-WEBSITE.md).
+
+From the repository root, open Claude Code (or another capable coding agent) and ask it to read `AGENTS.md` and `prompts/BUILD-CHARLIE-WEBSITE.md`. The brief instructs the agent to build a self-contained `website/` while preserving Charlie's instructions, supports an original editorial experience and includes an honest interactive methodology demo.
+
+This prompt **does not itself create or deploy a website**; it directs an AI coding agent to implement one.
+
 ## Getting started
 
 1. Clone this repository or copy the instruction files into your project root.
