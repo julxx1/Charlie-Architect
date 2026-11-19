@@ -3,6 +3,10 @@ name: premium-design
 description: Create a bespoke premium web visual direction and reusable design system. Use for new UI, redesigns, visual polish or brand-level interface decisions.
 ---
 
+# Visual fidelity protocol
+
+Read `docs/VISUAL-FIDELITY-STANDARD.md` and `docs/SCREENSHOT-DESIGN-REVIEW.md` for product images or visual redesigns. Preserve product scale and perceived material depth: real visual hierarchy, readable details, edge construction, coherent shadows and a generous editorial stage. Review screenshots at actual viewport sizes before reporting completion, or mark visual QA NOT VERIFIED.
+
 # Premium Design
 
 When a product image is provided, read docs/IMAGE-TO-EXPERIENCE.md, inspect it directly, and create a visual evidence sheet, non-generic hero, and a visual concept uniquely linked to the product.
