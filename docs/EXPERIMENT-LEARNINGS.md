@@ -22,3 +22,12 @@ This public note is intentionally anonymized: the compared websites are held in 
 
 ### Attribution
 This synthesis was also informed by design-engineering ideas published in Emil Kowalski's open-source collection: https://github.com/emilkowalski/skills (MIT license). Charlie Architect is a separate, vendor-neutral system.
+
+## Follow-up evaluation: user preference clarified
+A later source-code comparison verified that the user's new favorite repository had exactly the same Git tree as the previously preferred product-showcase version. The latest Charlie-generated alternative used modular model/render/pose code, a comprehensive physical keyboard/mouse tester and automated Vitest suites. **The user's stronger preference was for the editorial, tactile product showcase, not the diagnostics-first concept.**
+
+The important regression was **experience-type selection**, not inadequate animation libraries. The latest implementation had a modern hero and a pose-based scroll section, but much of its design weight and copy was dedicated to a technical test suite. It reduced separate product-exploration chapters and playful direct interaction. The preferred version used key-by-key entrance choreography, a long-form spatial study, a lively spring pointer response, discrete product chapters and a real typing challenge. These are source-backed design differences, not measured browser or FPS claims.
+
+The technically newer site still contributed valuable aspects: independently testable geometry, coverage model, pose windows, and explicit diagnostics. Retain those methods. Its global key capture with broad `preventDefault()` when armed should be reviewed for focused-field/shortcut safety; claims to detect specific hardware failures should be softened because browser input can only observe received events.
+
+**Generalizable decision:** distinguish the requested emotional experience (editorial product storytelling) from a repeatable tool (diagnostics) *before* coding. A beautiful, correct utility is still the wrong deliverable when the brief requests a cinematic product website. See `EXPERIENCE-MODE-SELECTION.md` and `EDITORIAL-ART-DIRECTION.md`. This lesson is about creative fidelity, not cloning the private source.
