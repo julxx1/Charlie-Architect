@@ -28,3 +28,10 @@ Read `docs/PRODUCT-INTERACTION-STRATEGY.md`, `docs/DESIGN-ENGINEERING-CRAFT.md`,
 Design one **product-specific signature interaction** rather than copying another project's demo. Build an excellent functioning primary action with a clear link from the hero. Coordinate expressive narrative motion with immediate, physically convincing feedback on everyday controls. Explain what each animation accomplishes and what should stay still.
 
 For illustrated products, label illustrative details and implement accessible keyboard and touch equivalents. Add model/geometry/input tests where there is custom behavior. After implementation, audit source code and any live viewport available, distinguishing what was actually verified from anything not tested.
+
+## Charlie v3 — preserve editorial intent
+For a product photo + premium high-motion web brief, select **editorial product experience** by default, unless the user explicitly asks for commerce, testing or a repeatable utility. Read `docs/EXPERIENCE-MODE-SELECTION.md` and `docs/EDITORIAL-ART-DIRECTION.md` before design.
+
+Make the actual product the visual protagonist. Use purposeful chapter-to-chapter contrast, memorable typography and lighting, a product-relevant signature interaction, and distinct storytelling moments. Do not replace an experiential landing page with hardware diagnostics or a dashboard merely because those features are easy to test.
+
+Before coding, show a compact creative thesis, story arc and first-viewport composition. Reject a generic or utility-first solution at the Creative Director review. After building, verify that the delivered experience is editorially compelling as well as functional, with screenshots/browsers where available. Keep test coverage, safety and accessible behavior from technically stronger alternatives.
