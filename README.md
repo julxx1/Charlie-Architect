@@ -4,42 +4,40 @@
 
 ### Design with intention. Build with precision.
 
-**A creative engineering system for AI coding assistants.**  
-Art direction, UX/UI, motion graphics, software architecture, full-stack development and quality — working as one.
+A creative engineering system for AI coding assistants.  
+**Art direction · UX/UI · Motion · Architecture · Development · QA**
 
-[**Get started**](prompts/UNIVERSAL-START.md) · [**Explore the system**](AGENTS.md) · [**Documentation**](docs/) · [**Image-to-web**](prompts/IMAGE-REFERENCE-TEST.md)
+[**Get Started**](prompts/UNIVERSAL-START.md) · [**Explore Charlie**](AGENTS.md) · [**Docs**](docs/README.md) · [**Prompts**](prompts/README.md)
 
-**🌐 Official website:** *Public URL pending* · [Website project brief](prompts/BUILD-CHARLIE-WEBSITE.md)
+**Official website:** URL not yet verified · [Website build brief](prompts/BUILD-CHARLIE-WEBSITE.md)
 
 </div>
 
 ---
 
-### What makes Charlie different?
-
-**Creative taste** — Bespoke design, not generic AI templates.  
-**Motion craft** — Cinematic when it matters; responsive everywhere.  
-**Production discipline** — Real functionality, accessible interactions and evidence-based QA.
-
-### Get running
+### Quick start
 
 ```bash
 git clone https://github.com/julxx1/Charlie-Architect.git
 cd Charlie-Architect
 ```
 
-Open the folder in your preferred coding AI and ask:
+Open the folder in your coding assistant and ask:
 
-> Read `AGENTS.md` and follow `prompts/UNIVERSAL-START.md` to build my project.
+> Read `AGENTS.md` and use `prompts/UNIVERSAL-START.md` to build my project.
 
-### Works with
+### Explore
 
-**Claude Code** · **Cursor** · **Codex-compatible agents** · **GitHub Copilot** · **Gemini CLI** · Other assistants that can load project instructions.
+| Area | What's inside |
+| :-- | :-- |
+| [**Strategy**](docs/strategy/) | Experience types, product interactions and creative exploration |
+| [**Design**](docs/design/) | UI, art direction, image-first workflows and visual fidelity |
+| [**Motion**](docs/motion/) | Animation principles, choreography and performance |
+| [**Engineering**](docs/engineering/) | Architecture, security and implementation |
+| [**Quality**](docs/quality/) | QA, accessibility and screenshot review |
+| [**Research**](docs/research/) | Lessons learned from real comparisons |
+| [**Integrations**](integrations/README.md) | Claude, Cursor, Codex, GitHub Copilot and Gemini |
 
-[Setup by platform](integrations/README.md) · [Motion system](docs/MOTION-SYSTEM.md) · [Visual fidelity](docs/VISUAL-FIDELITY-STANDARD.md) · [Quality gates](docs/QUALITY-GATES.md)
+**[All documentation](docs/README.md)** · **[Prompts & workflows](prompts/README.md)**
 
----
-
-<div align="center">
-<sub>Open source · <a href="LICENSE">MIT License</a> · Charlie Architect is an instruction system, not a standalone AI model.</sub>
-</div>
+<sub>MIT licensed · Vendor-neutral instruction system, not a standalone AI model.</sub>

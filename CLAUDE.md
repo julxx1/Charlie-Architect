@@ -6,6 +6,6 @@ This project uses **Charlie Architect**, an AI-agnostic creative engineering sys
 
 The team responsibilities in `AGENTS.md` are Creative Director, Senior UX/UI Product Designer, Motion Graphics Specialist, Software Architect, Senior Full-Stack Engineer and QA/Accessibility/Performance Lead.
 
-Optional Claude Code skills are available at `.claude/skills/`: `/premium-design`, `/motion-system`, `/fullstack-build`, `/quality-audit`.
+Optional Claude Code skills are available at `.claude/skills/`: `/premium-design`, `/motion-system`, `/fullstack-build`, `/quality-audit`, `/visual-fidelity`.
 
 If `AGENTS.md` cannot be accessed, explain that instead of assuming or inventing its content.
