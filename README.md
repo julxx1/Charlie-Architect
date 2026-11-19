@@ -32,7 +32,7 @@ Charlie now requires **visual fidelity inspection**, not just architecture and m
 1. Clone this repository or copy the instruction files into your project root.
 2. Open the project using your chosen AI coding tool.
 3. Confirm that the assistant can read `AGENTS.md`. If it can't, paste it or attach it.
-4. Use `prompts/UNIVERSAL-START.md` (or `prompts/IMAGE-REFERENCE-TEST.md` with a product image).
+4. Use **`prompts/UNIVERSAL-START.md` as the sole general starter** (or `prompts/IMAGE-REFERENCE-TEST.md` for a task specifically based on a product image).
 5. Ask for the creative concept, implementation, motion system and evidence-based audit.
 
 ## Six integrated professional lenses
