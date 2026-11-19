@@ -4,6 +4,14 @@
 
 An attractive site is not the same as a memorable product experience. Premium visual work requires a *connected direction*: typography, object, light, scale, composition, language and animation feel like parts of one idea.
 
+## Visual presence and tactile realism — Charlie v4
+
+The user-preferred product presentation in a screenshot comparison featured a large object, readable legends, sculpted individual parts, meaningful spacing and deep but restrained material shadows. The less successful presentation placed a smaller, flatter and harder-to-read product model inside a dense UI panel. Use this as a *quality lesson*, never as a reusable keyboard layout.
+
+For editorial showcases, allocate a generous visual stage to the object. Deliberately design physical layers (case, caps, edges), material-specific highlights, key shadows and contact shadow. Check actual display scale. A detailed miniature is not automatically premium; a technically accurate model can fail as visual design.
+
+Apply `VISUAL-FIDELITY-STANDARD.md` and `SCREENSHOT-DESIGN-REVIEW.md`. A code review without comparable screenshots cannot verify the perceived result.
+
 ## First-screen art direction
 
 - Make the real product (or explicitly illustrative reconstruction) visually dominant when the brief is product-led.
