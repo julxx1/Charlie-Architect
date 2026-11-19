@@ -9,7 +9,7 @@ A creative engineering system for AI coding assistants.
 
 [**Get Started**](prompts/UNIVERSAL-START.md) · [**Explore Charlie**](AGENTS.md) · [**Docs**](docs/README.md) · [**Prompts**](prompts/README.md)
 
-**Official website:** URL not yet verified · [Website build brief](prompts/BUILD-CHARLIE-WEBSITE.md)
+[**🌐 Visit the Website**](https://charlie-architect.vercel.app/) · [**View on GitHub**](https://github.com/julxx1/Charlie-Architect) · [Website build brief](prompts/BUILD-CHARLIE-WEBSITE.md)
 
 </div>
 
