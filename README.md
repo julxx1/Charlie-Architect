@@ -15,6 +15,18 @@ Charlie Architect is a reusable **set of instructions, professional standards an
 
 See `integrations/README.md` for precise setup and limitations. Instruction auto-loading depends on the tool and its version.
 
+## Charlie v4 — perceived visual quality
+
+An additional comparison of user-provided screenshots exposed a gap that purely technical QA missed: an intricate, tested product model can still look flat, undersized and visually weak when it is squeezed into a utility panel. The preferred design had generous product prominence, sculpted components, deep material shadows, legible details and clearer editorial hierarchy.
+
+Charlie now requires **visual fidelity inspection**, not just architecture and motion quality:
+- `docs/VISUAL-FIDELITY-STANDARD.md` — subject scale, realistic materials, readable details and composition
+- `docs/SCREENSHOT-DESIGN-REVIEW.md` — screenshot-led comparative QA, correction loop and mobile checks
+- `prompts/VISUAL-CALIBRATION-REVIEW.md` — universal prompt for improving perceived quality
+- `.claude/skills/visual-fidelity/SKILL.md` — optional Claude Code adapter
+
+**Important:** Source correctness and visual quality are separate release gates. Browser checks are required when accessible; otherwise report the visual check as NOT VERIFIED.
+
 ## Getting started
 
 1. Clone this repository or copy the instruction files into your project root.
