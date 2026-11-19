@@ -1,5 +1,11 @@
 # Image to premium product experience — reference-image protocol
 
+## Charlie v4 — prioritize the object as rendered
+
+Study product proportions, material, silhouette and details **at the target display scale**. Choose a visible, editorially strong presentation rather than an intricate model squeezed into a utility panel. When recreating physical details in SVG/CSS, plan casing, bevels/edges, component spacing, material lighting, tactile shadow, and label sizes before motion.
+
+After implementation inspect screenshots using `SCREENSHOT-DESIGN-REVIEW.md` and check `VISUAL-FIDELITY-STANDARD.md` at actual viewport dimensions. Functional interactions do not excuse poor visual prominence. If a supplied preferred screenshot shows a different section, make only grounded, transferable comparisons rather than claiming full visual equivalence.
+
 ## Step 0 — Ground the concept in the actual reference image
 - Inspect attached image(s) or accessible workspace files, not just their filenames.
 - Build a visual evidence sheet: product category, geometry, texture/material, dominant/accent colors, details, lighting, photo angle, context and unknowns. Separate observations from creative hypotheses.
