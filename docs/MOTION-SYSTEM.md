@@ -32,3 +32,15 @@ Motion supports hierarchy, orientation, feedback and narrative. Define a consist
 
 ## Review
 Check narrow screens, touch, keyboard, browser back, route navigation, reduced motion and slow hardware. Never let transitions obscure vital content or trap user input.
+
+## Charlie v2 — motion judgment
+The first decision is **whether anything should move**. A high-frequency keyboard action is not a marketing reveal. Use expressive motion primarily for rare narrative moments, and keep working controls immediately responsive.
+
+- Match tactile response to the physical metaphor: press feels fast, release settles smoothly; real movement originates where the user interacted.
+- Avoid doubling the entrance animation on both parent and children. Coordinate related effects as one gesture with overlap rather than a queue.
+- Prefer CSS transitions/keyframes, WAAPI and scoped rAF when sufficient; libraries are tools, not evidence of quality.
+- Ensure gestures can reverse mid-motion. Limit hover-only tracking to fine pointers.
+- Avoid `transition: all`, heavy layout effects per scroll frame, and unnecessary global animation loops.
+- Treat `clip-path`, blur and complex shadows as potential paint costs; benchmark rather than assume GPU acceleration.
+- Provide comprehensible static/discrete reduced-motion variants; critical content cannot remain hidden.
+- Use `MOTION-CRAFT-CHECKLIST.md` to specify the effect's purpose, timing, leader, support, interruption, fallbacks and actual test evidence.
