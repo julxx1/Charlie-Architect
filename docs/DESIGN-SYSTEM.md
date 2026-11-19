@@ -9,6 +9,11 @@
 - Use a restrained, accessible semantic palette, backgrounds, accents, feedback and focus colors.
 - Use owned/licensed assets with optimized dimensions, truthful claims and descriptive alt text.
 
+## Visual fidelity before implementation — Charlie v4
+For a physical or visually distinctive product, read `VISUAL-FIDELITY-STANDARD.md` and prepare a visual scale/material plan. The product's on-screen size, part thickness, spacing, relief, directional lighting, coherent shadows and label readability must survive rendering at actual viewport size. Avoid reducing an excellent illustration to illegible miniature detail inside unnecessary panel borders. Distinguish a generous editorial product stage from a dense diagnostic control surface. The intended experience mode decides which dominates.
+
+Read `SCREENSHOT-DESIGN-REVIEW.md` for user-preference calibration and actual rendered QA. Preserve design-system consistency without forcing every section into the same card-and-grid composition.
+
 ## Design tokens and components
 Define typography, spacing, radii, elevation, palette, breakpoints, motion durations and easings. Build reusable accessible buttons, inputs, cards, navigation and required stateful components. Customize primitives instead of shipping their defaults.
 
