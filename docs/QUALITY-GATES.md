@@ -1,5 +1,20 @@
 # Release checklist — evidence over claims
 
+## Visual fidelity gate — Charlie v4 (must be evaluated separately)
+
+- [ ] Main product is appropriately prominent for the requested experience, not a small illustration swallowed by chrome
+- [ ] Physical components have coherent visible thickness/depth, plausible lighting and contact shadows when product materials call for them
+- [ ] Meaningful fine details and legends are legible at **100% target viewport**, not merely at enlarged zoom
+- [ ] Subject scale, component spacing, title hierarchy and negative space feel deliberate
+- [ ] Editorial sections do not default to dense cards/panels better suited to a diagnostic tool
+- [ ] Color accents support brand or interaction meaning rather than scattering visual noise
+- [ ] Responsive design preserves visual comprehension without shrinking the main object into illegibility
+- [ ] When a preference reference exists, comparable screenshot states were reviewed or comparison limitations explicitly stated
+- [ ] Source-code checks are NOT counted as proof that the page looks premium
+- [ ] Screenshot review was repeated after implementation when available; otherwise mark **VISUAL QA NOT VERIFIED**
+
+Read `docs/VISUAL-FIDELITY-STANDARD.md` and `docs/SCREENSHOT-DESIGN-REVIEW.md`.
+
 ## Design
 - [ ] Distinctive, coherent and product-specific art direction
 - [ ] Consistent typography, spacing, semantics and visual states
