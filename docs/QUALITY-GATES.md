@@ -46,3 +46,16 @@ Report PASS / FAIL / NOT TESTED with evidence, not fabricated scores or screensh
 - [ ] Any unsupported measurements are labeled NOT TESTED, never converted to fabricated numeric scores
 
 Consult `DESIGN-ENGINEERING-CRAFT.md` and `MOTION-CRAFT-CHECKLIST.md` before approving a release.
+
+## Charlie v3 — intended experience and creative acceptance
+- [ ] Experience type is explicitly identified from the user's actual goal before work (editorial / commerce / demo / utility / portfolio)
+- [ ] Image-led premium briefs did not silently turn into diagnostics, dashboard cards or utilitarian specifications
+- [ ] Product is visually dominant and its materials, lighting, geometry and content drive a bespoke art direction
+- [ ] Hero communicates a memorable product idea and meaningful interaction, not generic marketing copy or a last-event status badge alone
+- [ ] At least a few distinct meaningful chapters advance the narrative; layout, contrast, type or pace vary for a reason
+- [ ] Intro, scroll and interaction motion have different jobs; signature movement is not limited to a single rigid whole-object fade
+- [ ] The chosen primary action matches the user's goal and is not merely the easiest feature to implement
+- [ ] Aesthetic/editorial quality is reviewed separately from code completeness and automated tests
+- [ ] User-declared preferred reference is used as an explicit taste-calibration benchmark without copying product-specific layouts
+- [ ] Desktop, mobile and key interactive states are visually inspected when runtime tools exist; otherwise mark NOT TESTED
+Read `docs/EXPERIENCE-MODE-SELECTION.md` and `docs/EDITORIAL-ART-DIRECTION.md` before creative signoff.
