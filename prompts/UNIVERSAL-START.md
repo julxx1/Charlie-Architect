@@ -15,3 +15,6 @@ Constraints/stack: [OPTIONAL]
 First derive a distinctive creative thesis and architecture from the real product requirements and any accessible image. Then implement a functional, responsive, accessible digital experience with coherent motion graphics, real interactions and appropriate testing. Avoid generic AI-generated landing pages, invented claims and fake buttons. Use effects that fit the concept, not an arbitrary set of animation libraries.
 
 Finally report which files were changed, what actually works, which animations are implemented, what checks ran, what was NOT TESTED, and how to run the result. No fabricated benchmark scores.
+
+## Charlie v2 craft directive
+Use `docs/PRODUCT-INTERACTION-STRATEGY.md` to find a distinctive interaction that demonstrates the product's strengths. Then check every major interaction against `docs/DESIGN-ENGINEERING-CRAFT.md`. Apply `docs/MOTION-CRAFT-CHECKLIST.md` to coordinate motion and avoid unhelpful effects. Elegance must be demonstrated through functional, testable interaction, not an arbitrary number of installed animation libraries.
