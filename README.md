@@ -62,3 +62,14 @@ New guidance:
 - `docs/EXPERIMENT-LEARNINGS.md` — anonymized lessons from a reference-image comparison
 
 This release was also informed by the independent [Emil Kowalski design engineering skills](https://github.com/emilkowalski/skills), which remain separate and are **not** embedded wholesale into Charlie. No third-party skill is required to run Charlie v2.
+
+## Charlie v3 — creative fidelity after a controlled preference comparison
+
+A follow-up comparison exposed a key failure: Charlie could interpret a request for a high-end editorial product website as a technically sound diagnostics tool. Both are useful, but they solve different problems.
+
+**Charlie v3 chooses experience mode before designing.** A product image with a brief for a memorable non-generic web experience defaults to an editorial showcase, not an unsolicited tester or dashboard. It requires a stronger visual arc, memorable product prominence, original choreography, and post-build creative review **without sacrificing engineering reliability**.
+
+- `docs/EXPERIENCE-MODE-SELECTION.md`: classify editorial / commerce / demo / utility / portfolio first.
+- `docs/EDITORIAL-ART-DIRECTION.md`: creative direction, visual contrast, product narrative and motion character.
+
+The comparison involved private user projects. The public repository contains **generalized design principles**, not private project links or third-party source code.
