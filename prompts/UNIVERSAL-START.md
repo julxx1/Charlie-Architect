@@ -18,3 +18,6 @@ Finally report which files were changed, what actually works, which animations a
 
 ## Charlie v2 craft directive
 Use `docs/PRODUCT-INTERACTION-STRATEGY.md` to find a distinctive interaction that demonstrates the product's strengths. Then check every major interaction against `docs/DESIGN-ENGINEERING-CRAFT.md`. Apply `docs/MOTION-CRAFT-CHECKLIST.md` to coordinate motion and avoid unhelpful effects. Elegance must be demonstrated through functional, testable interaction, not an arbitrary number of installed animation libraries.
+
+## Experience mode and editorial standard
+First read `docs/EXPERIENCE-MODE-SELECTION.md`. Explicitly choose the kind of experience requested. A product image plus a brief for a premium cinematic website means an **editorial product experience** unless otherwise stated — not a diagnostic tool. Use `docs/EDITORIAL-ART-DIRECTION.md` to ensure rich visual narrative, strong product prominence, responsive cinematic motion and emotional connection. Reject utility-heavy layouts before coding if they fail the brief. Do not sacrifice real functionality or verification.
