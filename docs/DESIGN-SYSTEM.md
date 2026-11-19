@@ -19,3 +19,11 @@ Define typography, spacing, radii, elevation, palette, breakpoints, motion durat
 - Keyboard navigation, focus visibility and screen-reader semantics.
 
 Never use animation to hide weak layout or incomplete functionality. Be inspired by references without cloning copyrighted work.
+
+## Charlie v2 — visual and behavioral craft
+- Invent a product-specific visual metaphor and useful primary interaction before creating repeated sections or generic interface cards. Read `PRODUCT-INTERACTION-STRATEGY.md`.
+- Make object material, physical construction, proportions, reflections, matte finish and geometric characteristics influence the actual visual system when supported by evidence.
+- Review small details just as closely as hero composition: press and hover, focus and active states, meaningful empty/error states, origin-aware floating surfaces and immediate repeated controls.
+- Prefer a consistent brand/type hierarchy and believable lighting over decorative gradients, indiscriminate glass effects and repeated fade-up animations.
+- A decorative object can be visually elaborate; an operable object must have semantic controls, accessible alternatives and understandable instructions.
+- Review with `DESIGN-ENGINEERING-CRAFT.md` before signoff. If artistic direction is ambiguous, experiment with genuinely different concepts using `PROTOTYPE-AND-LEARNING.md`.
