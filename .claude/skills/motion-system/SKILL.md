@@ -7,7 +7,7 @@ description: Design and implement cinematic, usable web motion including scroll 
 
 For a product reference image, produce a concrete 5–8 beat motion storyboard tied to the page. Implement feasible signature sequences and report which beats actually shipped.
 
-1. Read docs/MOTION-SYSTEM.md and inspect current UI and dependencies.
+1. Read docs/motion/MOTION-SYSTEM.md and inspect current UI and dependencies.
 2. Define three motion adjectives and an inventory: what moves, why, trigger, duration, easing, fallback.
 3. Choose CSS for simple motion, Motion for React for layout/state, GSAP ScrollTrigger for coordinated scroll, WebGL only when justified.
 4. Implement entry, hover, feedback and narrative transitions without hiding content when JS fails.
@@ -15,5 +15,5 @@ For a product reference image, produce a concrete 5–8 beat motion storyboard t
 6. Clean up listeners and animation contexts; inspect layout thrash, scroll problems and obscured content.
 7. Document what was built and actually verified.
 
-8. Use the frequency/purpose decision gate in `docs/DESIGN-ENGINEERING-CRAFT.md` before animating.
-9. Use `docs/MOTION-CRAFT-CHECKLIST.md` to document motion lead, supporting elements, interruption, reduced-motion and verification. Remove unneeded animations instead of adding more.
+8. Use the frequency/purpose decision gate in `docs/design/DESIGN-ENGINEERING-CRAFT.md` before animating.
+9. Use `docs/motion/MOTION-CRAFT-CHECKLIST.md` to document motion lead, supporting elements, interruption, reduced-motion and verification. Remove unneeded animations instead of adding more.
