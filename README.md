@@ -49,3 +49,16 @@ See `integrations/README.md` for precise setup and limitations. Instruction auto
 Charlie Architect doesn't install animation libraries by itself. AI assistants need tool access to edit files, run tests or inspect reference images. The quality bar is an aspiration, not a guaranteed USD 10,000 valuation or a verified Awwwards award. Respect image licenses, security policies and reduced-motion accessibility. Never invent test results.
 
 MIT license.
+
+## Charlie v2 — design engineering craft
+
+The original Charlie instructions focused on appearance, architecture and large-scale cinematic effects. Charlie v2 adds **interaction-level craft**: product-specific signature actions, refined tactile response, choreography that respects user attention, and explicit decisions about when *not* to animate.
+
+New guidance:
+- `docs/PRODUCT-INTERACTION-STRATEGY.md` — design from actual product behavior
+- `docs/DESIGN-ENGINEERING-CRAFT.md` — detailed interaction and motion decision gates
+- `docs/MOTION-CRAFT-CHECKLIST.md` — precise specifications and performance diagnostics
+- `docs/PROTOTYPE-AND-LEARNING.md` — concept variants, design decisions and confirmed user preferences
+- `docs/EXPERIMENT-LEARNINGS.md` — anonymized lessons from a reference-image comparison
+
+This release was also informed by the independent [Emil Kowalski design engineering skills](https://github.com/emilkowalski/skills), which remain separate and are **not** embedded wholesale into Charlie. No third-party skill is required to run Charlie v2.
