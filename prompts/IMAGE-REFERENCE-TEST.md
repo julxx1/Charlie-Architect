@@ -21,3 +21,10 @@ Lee AGENTS.md, docs/IMAGE-TO-EXPERIENCE.md, docs/DESIGN-SYSTEM.md, docs/MOTION-S
 **Objetivo:** experiencia distintiva de estudio creativo profesional. USD 10.000 es una aspiración de calidad, nunca una valoración garantizada.
 
 **Entrega:** sitio operativo, breve racional artístico, animaciones realmente implementadas, comandos de ejecución, checks reales y limitaciones conocidas. Procede con supuestos sensatos cuando falten datos no esenciales.
+
+## Charlie v2 — specialist craft review
+Read `docs/PRODUCT-INTERACTION-STRATEGY.md`, `docs/DESIGN-ENGINEERING-CRAFT.md`, and `docs/MOTION-CRAFT-CHECKLIST.md` before choosing the visual concept.
+
+Design one **product-specific signature interaction** rather than copying another project's demo. Build an excellent functioning primary action with a clear link from the hero. Coordinate expressive narrative motion with immediate, physically convincing feedback on everyday controls. Explain what each animation accomplishes and what should stay still.
+
+For illustrated products, label illustrative details and implement accessible keyboard and touch equivalents. Add model/geometry/input tests where there is custom behavior. After implementation, audit source code and any live viewport available, distinguishing what was actually verified from anything not tested.
