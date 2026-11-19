@@ -8,6 +8,8 @@ required = [
     "docs/DESIGN-ENGINEERING-CRAFT.md", "docs/PRODUCT-INTERACTION-STRATEGY.md",
     "docs/MOTION-CRAFT-CHECKLIST.md", "docs/PROTOTYPE-AND-LEARNING.md",
     "docs/EXPERIMENT-LEARNINGS.md",
+    "docs/EXPERIENCE-MODE-SELECTION.md",
+    "docs/EDITORIAL-ART-DIRECTION.md",
     ".cursor/rules/charlie-architect.mdc", ".github/copilot-instructions.md",
     "integrations/README.md", "prompts/UNIVERSAL-START.md",
     "docs/DESIGN-SYSTEM.md", "docs/IMAGE-TO-EXPERIENCE.md",
