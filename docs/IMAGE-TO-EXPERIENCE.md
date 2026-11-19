@@ -49,3 +49,8 @@ If depicting the object via SVG/CSS, add an explicit illustration/provenance not
 
 ### Final review
 Check actual screenshots/viewport output when available. Compare type, image scale, visual composition, shadows, color and responsive behavior; distinguish real checks from source-only assumptions.
+
+## Editorial vs utility gate (Charlie v3)
+Before selecting the signature interaction, read `EXPERIENCE-MODE-SELECTION.md`. A photo-led premium cinematic web brief is an **editorial experience**, not automatically a diagnostics/productivity tool. Validate the concept through `EDITORIAL-ART-DIRECTION.md`: the hero must make the product visually consequential, the copy must evoke a distinct idea, the page must have a coherent changing narrative, and the primary interaction must fit what the visitor came to experience. The screen should not be dominated by diagnostic panels unless the user asked for that.
+
+The storyboard should include at least one distinctive product-led visual moment beyond whole-object entry and generic headline fade **when technically justified**. Remove unnecessary effects; do not force a fixed number of animations. If concept drifted toward utility, return to art direction before implementing additional features.
