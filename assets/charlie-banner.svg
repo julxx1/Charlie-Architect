@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+<title id="title">Charlie Architect</title><desc id="desc">The creative engineering system. An idea needs architecture.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171818"/><stop offset=".7" stop-color="#202222"/><stop offset="1" stop-color="#181a1a"/></linearGradient>
+  <linearGradient id="shape" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dadbd5" stop-opacity=".82"/><stop offset=".85" stop-color="#777e7a" stop-opacity=".27"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#ecede6" stroke-width=".5" opacity=".055" fill="none"/></pattern>
+</defs>
+<rect width="1440" height="440" fill="url(#bg)"/>
+<rect width="1440" height="440" fill="url(#grid)"/>
+<path d="M62 56H1378M62 384H1378" stroke="#edeee9" stroke-opacity=".16"/>
+<path d="M70 56V384M1370 56V384" stroke="#edeee9" stroke-opacity=".11"/>
+<g transform="translate(968 219)" fill="none">
+  <circle r="153" stroke="#e8ece4" stroke-opacity=".15"/>
+  <circle r="107" stroke="#e8ece4" stroke-opacity=".12"/>
+  <circle r="58" stroke="#e8ece4" stroke-opacity=".1"/>
+  <path d="M-190 0H190M0 -190V190" stroke="#f2f4ec" stroke-opacity=".14"/>
+  <path d="M-102 -90L110 -90 168 0 110 90 -102 90 -158 0Z" stroke="url(#shape)" stroke-width="2.3"/>
+  <path d="M-118 125L-22 -119 126 39 -118 125Z" stroke="#d8dcd4" stroke-opacity=".28"/>
+  <path d="M-132 -133L134 133M134 -133L-132 133" stroke="#a5a8a1" stroke-opacity=".10" stroke-dasharray="4 9"/>
+  <circle cx="-102" cy="-90" r="5" fill="#e3e7e0" stroke="none"/>
+  <circle cx="110" cy="90" r="5" fill="#e3e7e0" stroke="none"/>
+</g>
+<g fill="#f2f0e9">
+  <text x="96" y="163" font-family="Inter,Arial,Helvetica,sans-serif" font-size="20" letter-spacing="5.5" font-weight="500" opacity=".65">CREATIVE ENGINEERING SYSTEM</text>
+  <text x="90" y="261" font-family="Inter,Arial,Helvetica,sans-serif" font-size="98" font-weight="850" letter-spacing="-6">CHARLIE</text>
+  <text x="98" y="318" font-family="Inter,Arial,Helvetica,sans-serif" font-size="34" font-weight="500" letter-spacing="13">ARCHITECT</text>
+  <text x="99" y="357" font-family="Inter,Arial,Helvetica,sans-serif" font-size="17" opacity=".66">An idea needs architecture.</text>
+</g>
+<g fill="#d7ddd4" font-family="monospace" font-size="12" opacity=".5">
+  <text x="1194" y="88">SYSTEM / 01</text>
+  <text x="1176" y="357">DESIGN → BUILD</text>
+</g>
+</svg>
