@@ -8,6 +8,13 @@ Lee AGENTS.md, docs/IMAGE-TO-EXPERIENCE.md, docs/DESIGN-SYSTEM.md, docs/MOTION-S
 **Producto (opcional):** [NOMBRE]
 **Acción principal:** [EXPLORAR / COTIZAR / RESERVAR / COMPRAR MEDIANTE INTEGRACIÓN REAL / OTRA]
 
+## Charlie v4 — visual benchmark required
+Before coding, read `docs/VISUAL-FIDELITY-STANDARD.md` and `docs/SCREENSHOT-DESIGN-REVIEW.md`. Treat the *actual rendered appearance* of the product as a release criterion. Make the object large enough to be admired, with visibly dimensional construction, material-specific directional highlights, depth and contact shadows where justified. Technical accuracy is insufficient if details become tiny, flat or unreadable.
+
+Build an editorial product canvas when the brief asks for a cinematic showcase; do not shrink the object into a generic diagnostics panel. Contrast, typography, crop, spacing and composition must support the product.
+
+After coding, compare screenshots at desktop and mobile, inspect material depth and fine-print legibility, identify and correct the top three visual gaps. If you cannot run a browser, state that visual quality was NOT VERIFIED. Keep the functionality and tests. For an explicit visual comparison request, use `prompts/VISUAL-CALIBRATION-REVIEW.md`.
+
 ## Protocolo obligatorio
 1. Mira la imagen de verdad. Extrae forma, material, color, iluminación y detalles. Separa lo visible de especulaciones. Si no puedes abrirla, pídela; no finjas analizarla.
 2. Explica brevemente una dirección creativa específica: concepto, fuentes, paleta, composición, estructura narrativa y un hero memorable.
