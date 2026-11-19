@@ -47,3 +47,18 @@ User project constraints and applicable platform safety policies take precedence
 - Image-led website prompt: `prompts/IMAGE-REFERENCE-TEST.md`
 - Universal starting prompt: `prompts/UNIVERSAL-START.md`
 - Existing design, motion, engineering and QA manuals: `docs/`
+
+## Charlie v2 — craft and product-led execution (mandatory for visual product work)
+Before styling a page, identify the product's **signature user interaction**: something meaningful that reflects how it is used or what makes it distinctive. Choose the interaction from product evidence and the actual visitor goal, not from a reusable demo template. See `docs/PRODUCT-INTERACTION-STRATEGY.md`.
+
+Apply `docs/DESIGN-ENGINEERING-CRAFT.md` to every major interactive component. Review the tiny details that accumulate into quality: immediate tactile feedback, typography, material lighting, spatial origins, enter/exit timing, keyboard/touch parity and correct semantics.
+
+For motion, apply the **should-this-animate** gate. Classify frequency and purpose before choosing easing or technology. Rare editorial sequences may be expressive; frequently used UI must respond quickly without performative delay. Read `docs/MOTION-CRAFT-CHECKLIST.md`. Prefer coherent choreography over a fixed quota of effects: define lead, supporting and stationary elements, allow interruption and remove redundant movement.
+
+A creative product illustration that accepts input is *not merely decorative*. Do not put an operable model inside `aria-hidden` unless fully equivalent and discoverable accessible controls exist.
+
+Do not confuse impressive visuals with test coverage. Bespoke visual models must have meaningful geometry, mapping, scoring or state tests where appropriate, and manual visual quality must be checked separately. A build passing is not proof of smooth animation or beautiful composition.
+
+When direction is uncertain, prototype genuinely different solutions rather than variations of the same theme. Only promote confirmed user feedback into reusable project design rules. See `docs/PROTOTYPE-AND-LEARNING.md`.
+
+**Final QA question:** Does this product work and feel distinctive because of its specific qualities, or could the same sections and animations be attached to anything?
