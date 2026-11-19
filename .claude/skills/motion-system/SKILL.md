@@ -14,3 +14,6 @@ For a product reference image, produce a concrete 5–8 beat motion storyboard t
 5. Add reduced-motion, touch, keyboard and low-performance fallbacks.
 6. Clean up listeners and animation contexts; inspect layout thrash, scroll problems and obscured content.
 7. Document what was built and actually verified.
+
+8. Use the frequency/purpose decision gate in `docs/DESIGN-ENGINEERING-CRAFT.md` before animating.
+9. Use `docs/MOTION-CRAFT-CHECKLIST.md` to document motion lead, supporting elements, interruption, reduced-motion and verification. Remove unneeded animations instead of adding more.
