@@ -62,3 +62,12 @@ Do not confuse impressive visuals with test coverage. Bespoke visual models must
 When direction is uncertain, prototype genuinely different solutions rather than variations of the same theme. Only promote confirmed user feedback into reusable project design rules. See `docs/PROTOTYPE-AND-LEARNING.md`.
 
 **Final QA question:** Does this product work and feel distinctive because of its specific qualities, or could the same sections and animations be attached to anything?
+
+## Experience-mode lock and editorial-quality veto (Charlie v3)
+Before proposing page sections or building a product website, read `docs/EXPERIENCE-MODE-SELECTION.md`. Identify whether the user wants **an editorial product showcase, commerce, interactive demonstration, diagnostics/productivity, or portfolio experiment**. Record why that mode matches the actual brief. When the user provides a product image and asks for a non-generic high-end website with motion graphics, default to an **editorial showcase**, not an unsolicited technical diagnostics dashboard.
+
+Read `docs/EDITORIAL-ART-DIRECTION.md` for product-first art direction. Deliberately design the object scale, editorial typography, nuanced studio lighting, hero choreography, chapter-to-chapter contrast, and a clear emotional arc. A highly tested utility can still fail the creative brief. Do not let technical completeness replace creative ambition.
+
+**Creative Director review before implementation:** reject an interchangeable hero, repetitive section layout, basic one-shot fade/slide as the only significant motion, or a dense tool/tester dominating an editorial request. Correct the art direction, not by adding random animation libraries. Maintain one product-derived signature interaction and make it feel great.
+
+**Visual QA after implementation:** compare all major scenes and mobile/desktop screenshots with any explicitly preferred reference, when a browser is available. User preference is a calibration signal, not permission to clone source art or use private repositories as public examples. Separate visual judgments from real measured performance. Retain engineering improvements (unit tests, data-model structure, security, safe input capture) even when an earlier visual direction was preferred.
