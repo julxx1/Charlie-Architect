@@ -47,13 +47,13 @@ for source in sources:
     if not source.is_file():
         continue
     body = source.read_text(encoding="utf-8")
-    for link in re.findall(r"\\]\\(([^)]+)\\)", body):
+    for link in re.findall(r"\]\(([^)]+)\)", body):
         if link.startswith(("http://", "https://", "mailto:", "#", "data:")):
             continue
         target = unquote(link.split("#", 1)[0])
         if target and not (source.parent / target).exists():
             broken_links.append((source.relative_to(root), link))
-    for ref in re.findall(r"(?<![\\w/])docs/[A-Za-z0-9_/-]+\\.md", body):
+    for ref in re.findall(r"(?<![\w/])docs/[A-Za-z0-9_/-]+\.md", body):
         if not (root / ref).is_file():
             broken_links.append((source.relative_to(root), ref))
 
