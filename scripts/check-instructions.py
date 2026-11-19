@@ -5,6 +5,9 @@ from pathlib import Path
 root = Path(__file__).resolve().parents[1]
 required = [
     "AGENTS.md", "README.md", "CLAUDE.md", "GEMINI.md",
+    "docs/DESIGN-ENGINEERING-CRAFT.md", "docs/PRODUCT-INTERACTION-STRATEGY.md",
+    "docs/MOTION-CRAFT-CHECKLIST.md", "docs/PROTOTYPE-AND-LEARNING.md",
+    "docs/EXPERIMENT-LEARNINGS.md",
     ".cursor/rules/charlie-architect.mdc", ".github/copilot-instructions.md",
     "integrations/README.md", "prompts/UNIVERSAL-START.md",
     "docs/DESIGN-SYSTEM.md", "docs/IMAGE-TO-EXPERIENCE.md",
