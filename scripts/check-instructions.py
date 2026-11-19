@@ -28,6 +28,38 @@ required = [
 missing = [p for p in required if not (root / p).is_file()]
 for path in required:
     print(("MISSING" if path in missing else "OK     ") + " " + path)
-if missing:
+
+# Validate Markdown navigation and explicitly referenced root-relative docs.
+# External links and anchors are intentionally excluded.
+import re
+from urllib.parse import unquote
+
+sources = [
+    root / "README.md", root / "AGENTS.md", root / "CLAUDE.md",
+    root / "GEMINI.md", root / "integrations/README.md",
+    root / ".github/copilot-instructions.md",
+    *sorted((root / "docs").rglob("*.md")),
+    *sorted((root / "prompts").rglob("*.md")),
+    *sorted((root / ".claude/skills").rglob("*.md")),
+]
+broken_links = []
+for source in sources:
+    if not source.is_file():
+        continue
+    body = source.read_text(encoding="utf-8")
+    for link in re.findall(r"\\]\\(([^)]+)\\)", body):
+        if link.startswith(("http://", "https://", "mailto:", "#", "data:")):
+            continue
+        target = unquote(link.split("#", 1)[0])
+        if target and not (source.parent / target).exists():
+            broken_links.append((source.relative_to(root), link))
+    for ref in re.findall(r"(?<![\\w/])docs/[A-Za-z0-9_/-]+\\.md", body):
+        if not (root / ref).is_file():
+            broken_links.append((source.relative_to(root), ref))
+
+for source, target in broken_links:
+    print(f"BROKEN  {source}: {target}")
+
+if missing or broken_links:
     raise SystemExit(1)
-print("Charlie Architect multi-agent instruction pack: PASS")
+print("Charlie Architect structure and documentation links: PASS")
