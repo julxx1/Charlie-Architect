@@ -39,3 +39,13 @@
 - The experience remains usable on touch, reduced motion and slow network.
 - Primary action is genuine and meaningful.
 - Run applicable build/tests and browser checks; report what was actually verified.
+
+## Mandatory interaction hypothesis
+Identify one or more *product-dependent interactions* before settling the layout. Evaluate the ideas on product relevance, visitor value, implementability, honesty about unverified details, and accessibility. Choose one signature action and make the CTA lead to it. Read `PRODUCT-INTERACTION-STRATEGY.md`.
+
+Storyboards are a design tool, not an instruction to force animations. For each candidate beat document the leader, supporting elements, deliberate stillness, interruption behavior, and touch/keyboard/reduced-motion variants. Build the strongest feasible beats, not necessarily every candidate.
+
+If depicting the object via SVG/CSS, add an explicit illustration/provenance notice. When interactive, do not mark the entire object `aria-hidden` unless a proper functional accessible alternative is provided. Validate the picture-based data model with tests if the UI simulates geometry, parts or inputs.
+
+### Final review
+Check actual screenshots/viewport output when available. Compare type, image scale, visual composition, shadows, color and responsive behavior; distinguish real checks from source-only assumptions.
