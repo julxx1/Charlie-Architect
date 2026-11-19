@@ -14,3 +14,6 @@ When a product image is provided, read docs/IMAGE-TO-EXPERIENCE.md, inspect it d
 5. Implement responsive, keyboard-accessible UI and all key states.
 6. Inspect and refine mobile, desktop and intermediate widths.
 7. Report verification and tradeoffs.
+
+8. Read `docs/PRODUCT-INTERACTION-STRATEGY.md`; identify and implement one fitting signature interaction before defaulting to generic sections.
+9. Review tactile feedback, focus, spatial origin and narrative restraint with `docs/DESIGN-ENGINEERING-CRAFT.md`. Propose genuine concept alternatives only if product direction is ambiguous.
